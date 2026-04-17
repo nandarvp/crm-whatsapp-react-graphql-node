@@ -41,8 +41,8 @@
   "scripts": {
     "build": "ng build",
     "ng": "ng",
-    "preview": "vite preview",
     "start": "ng serve",
+    "start:server": "cd server && npm install && npm run dev",
     "test": "ng test",
     "watch": "ng build --watch --configuration development"
   },
